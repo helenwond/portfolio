@@ -6,7 +6,7 @@ header
 h1
 {
   color : black;
-  font-family: algerian;
+  font-family:'Yeon Sung', cursive;;
   text-align: center;
 }
 nav
@@ -32,6 +32,7 @@ nav ul li a
 {
   float : left;
   padding: 0px 40px;
+  font-family: 'Dancing Script', cursive;
 }
 p
 {
@@ -55,6 +56,8 @@ border-radius: 50%;
 }
 .section
 {
+  display: flex;
+  flex-direction: column;
   width:1500px;
   background-color: rgb(248, 248, 255);
 }
@@ -62,6 +65,9 @@ border-radius: 50%;
 {
   color: red;
   font: bold;
+}
+.fa-linkedin{
+  font-size: 50px;
 }
 footer
 {
