@@ -38,6 +38,10 @@ p
 {
   color : blue;
 }
+p:nth-of-type(2)
+{
+color: red;
+}
 .center
 {
   text-align: center;
@@ -49,6 +53,11 @@ margin-right: auto;
 width:25%;
 border-radius: 50%;
 }
+.center-image:hover
+{
+width:30%;
+}
+
 .borders
 {
   border-style:solid;
@@ -68,6 +77,25 @@ border-radius: 50%;
 }
 .fa-linkedin{
   font-size: 50px;
+}
+
+.fa-linkedin:hover{
+  font-size: 70px;
+  color: black;
+}
+#progressbar
+{
+  height: 20px;
+  width: 100px;
+  background-color: red;
+}
+
+#progressbar:hover
+{
+  width:150px;
+  height: 25px;
+  background-color: blue;
+  transition-duration: 2s;
 }
 footer
 {
